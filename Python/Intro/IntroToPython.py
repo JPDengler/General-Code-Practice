@@ -33,7 +33,7 @@
 # # Convert this temperature to Fahrenheit and print the result.
 # # F = (9/5)C + 32.
 # def convertCtoF (currentTempC):
-#     currentTempF =(9/5 * currentTempC) + 32
+#     currentTempF = (9/5 * currentTempC) + 32
 #     return currentTempF
 
 # currentTempC = int(input("Enter the temp in Cel: "))
@@ -43,17 +43,18 @@
 # messageStr = "Hello World!"
 # print(len(messageStr))
 
-# Write a program that takes two integers from the user and prints their average.
-amtOfValues = int(input("Please enter the amount of values: "))
-allValues = []
-for _ in range(amtOfValues):
-      value = int(input("Enter a value: "))
-      allValues.append(value)
+# # Write a program that takes two integers from the user and prints their average.
+# amtOfValues = int(input("Please enter the amount of values: "))
+# allValues = []
+# for _ in range(amtOfValues):
+#       value = int(input("Enter a value: "))
+#       allValues.append(value)
 
-divideBy = int(input("Enter the value to divide by: "))
+# divideBy = int(input("Enter the value to divide by: "))
 
-total = sum(allValues)
-average = total / divideBy
+# total = sum(allValues)
+# average = total / divideBy
 
-print(f"The average is: {average}")
+# print(f"The average is: {average}")
     
+
