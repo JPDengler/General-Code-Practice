@@ -57,4 +57,14 @@
 
 # print(f"The average is: {average}")
     
+# ## for loop stuff
+# # print each element in a list of numbers (numbers = [1, 2, 3, 4, 5])
+# numbers = [1, 2, 3, 4, 5]
+# for number in numbers:
+#     print(number)
+
+# # Print each character in a string.
+# randomStringHere = "Well hey howdy"
+# for letter in randomStringHere:
+#     print(letter)
 
