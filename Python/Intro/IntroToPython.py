@@ -68,3 +68,50 @@
 # for letter in randomStringHere:
 #     print(letter)
 
+# # Print the first 10 natural numbers using range().
+# for i in range(10):
+#     print(i)
+
+# # Calculate the sum of all numbers in a list. (numbers = [1, 2, 3, 4, 5])
+# numbers = [1, 2, 3, 4, 5]
+# total = 0
+# for number in numbers:
+#     total += number
+# print(total)
+
+# # Find the maximum number in a list.
+# numbers = [101, 1000, 9999, 2]
+# highestNumber = 0
+
+# for currentNumber in numbers:
+#     if currentNumber > highestNumber:
+#         highestNumber = currentNumber
+
+# print (highestNumber)
+
+# # Count the number of vowels in a string. (a, e, i, o, u.)
+# vowels = ['a', 'e', 'i', 'o', 'u']
+# randomString = "The quick brown fox jumps over the lazy dog"
+# match = 0
+
+# for letter in randomString:     
+#     if letter in vowels:
+#         match += 1
+
+# print(match)
+
+# # Print the squares of numbers from 1 to 10.
+# array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+# for number in array:
+#     squared = number * number
+#     print(squared)
+
+# # Iterate over a dictionary and print the key-value pairs.
+# student_scores = {"Alice": 85, "Bob": 90, "Charlie": 78}
+
+# for name, score in student_scores.items():
+#     print(f"{name} scored an {score}")
+
+# Print a multiplication table for a given number.
+number = 5
